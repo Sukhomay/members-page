@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 30px 20px;
+    cursor: pointer;
 }
 
 .border {
@@ -27,12 +28,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background: url('../images/man.png') center center no-repeat, #070140;
+    background: url('../images/man.png') center center no-repeat, radial-gradient(circle, #441a2a, #37182b, #2a162a, #1d1326, #120f20);
     background-size: 300px;
 }
 
 .card:hover {
-    background: url('../images/man.png') left center no-repeat;
+    background: url('../images/man.png') left center no-repeat, radial-gradient(circle, #441a2a, #37182b, #2a162a, #1d1326, #120f20);
     background-size: 600px;
 }
 
