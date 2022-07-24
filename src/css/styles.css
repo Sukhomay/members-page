@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import './card.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    transition: all 0.3s ease-in;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(to right top, #14007d, #120174, #10016a, #0f0261, #0d0258, #0a0252, #09024b, #080145, #070140, #07013b, #080135, #080030) no-repeat;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+}
+
+.sec-heading {
+    text-align: center;
+    margin: 0.8rem;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+}
+
+.por-groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .icons {
+        font-size: 70%;
+    }
+}
