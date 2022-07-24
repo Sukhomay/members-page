@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth756.cur), auto !important;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     background: url(../images/wallpaper.jpg);
-    /* background: linear-gradient(to right top, #14007d, #120174, #10016a, #0f0261, #0d0258, #0a0252, #09024b, #080145, #070140, #07013b, #080135, #080030) no-repeat; */
 }
 
 .main-container {
@@ -40,6 +40,17 @@ body {
     font-size: 3rem;
     text-shadow: 2px 2px 4px #000000;
     font-weight: 700;
+    position: relative;
+}
+
+.sec-heading::before,
+.sec-heading::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid white;
+    width: fit-content;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
 }
 
 .por-groups {
